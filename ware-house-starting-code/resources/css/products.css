@@ -1,0 +1,115 @@
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-family: "Noto Serif", serif;
+}
+
+/* header */
+
+header {
+  background-color: #93C1C4;
+}
+
+.search-bar {
+  font-family: "Raleway", sans-serif;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:active {
+  opacity: 0.3;
+}
+
+/* nav bar */
+
+.nav {
+  background-color: #93C1C4;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.nav a:active {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* breadcrumb */
+
+.breadcrumb a {
+  color: #2F4858;
+}
+
+.breadcrumb a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.breadcrumb a:active {
+  color: #000;
+  font-weight: bold;
+}
+
+/* products */
+
+.image-container img:hover {
+    opacity: 0.5;
+}
+
+.image-container img:active {
+  opacity: 0.3;
+}
+
+.product-list {
+  grid-gap: 10px 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: #93C1C4;
+}
+
+.links h4 {
+  color: #000;
+  font-family: "Noto Serif", serif;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.links a {
+  color: #000;
+  padding-top: 2px;
+
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+.links a:active {
+  font-weight: bold;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+img:active {
+  opacity: 0.3;
+}
